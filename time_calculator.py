@@ -1,7 +1,13 @@
 def add_time(start, dur, day=None):
     
-    week_map = {"Saturday": 0,"Sunday": 1,"Monday": 2,"Tuesday": 3,"Wednesday": 4,"Thursday": 5,"Friday": 6
-    }
+    week_map = {
+        "Saturday": 0,
+        "Sunday": 1,
+        "Monday": 2,
+        "Tuesday": 3,
+        "Wednesday": 4,
+        "Thursday": 5,
+        "Friday": 6}
     
     Time, md = start.split()
     hrs, min = Time.split(':')
